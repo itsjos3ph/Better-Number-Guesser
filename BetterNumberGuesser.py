@@ -17,7 +17,7 @@ while attempts != 3:  # keep looping until the user has made 3 attempts
         print("Wrong, the number is higher than this, try again!")
         attempts = attempts + 1  # increment the number of attempts
     else:  # if the guess is correct
-        print("Booyah! You guessed correctly.")
+        print("Nice Job! You guessed correctly.")
         exit()  # end the program
 
 print(f"The number is {number}")  # if the user has made 3 attempts without guessing correctly, print the correct number
